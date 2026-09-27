@@ -1,0 +1,57 @@
+* 
+body{
+    background-color: grey;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+header{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    border: 2px solid white;
+    text-align: center;
+    font-family: ;
+}
+table{
+    border: 2px solid white; 
+    border-collapse:collapse ;
+    width: 100%;
+    height: auto;
+    
+    
+
+
+}
+html, body{
+    height: 50%;
+}
+tr>th{
+    border: 2px solid white;
+    font-size: xx-large;
+    color: aliceblue;
+    background-color: black;
+}
+tr>td{
+    border: 2px solid white;
+    text-align: center;
+    padding: 5px;
+    font-size: xx-large;
+    color: aliceblue;
+    background-color: rgb(56, 51, 51);
+}
+tbody{
+    margin:30px;
+}
+tr:nth-child(even) td {
+    background-color: black;
+}
+tr :hover { background-color: rgba(255, 255, 255, 0.247);
+    font-weight: 700;
+    cursor: pointer;
+    margin: 2px;
+
+}
+
